@@ -5,7 +5,13 @@ var http = require('http'),
     fs   = require('fs'),
     url = 'http://127.0.0.1/player_streaming/outside/Movies/HBNiUn_nkbeFlT9Vu6ZOB2yVSk4TSWh7RtGTgqGSm44JGKk63wIM_CU2V3XU6U-ppE99n8F6RsMtWkuCZJHPeRM25YM7WQ5AjDq91Q9DKCGZR7ZBkwEu_lS8z1U_hkI05Qh4PN-Fc1-OKbiG5CoeoaM1HuJ4wRIfO1CrNJ7Ty_FV_In_o5VOBQvkB9fW9R3K';
 
-var req = http.request(url, function (res) {
+var down = require('./lib/down-stream')('test','File.mp4');
+
+
+
+
+
+/*var req = http.request(url, function (res) {
     
     'use strict';
     //print the status log
@@ -53,4 +59,4 @@ req.on('error', function (error) {
     console.log(`Error with request => ${error.message}`);
 });
 //end the http request
-req.end();
+req.end();*/
