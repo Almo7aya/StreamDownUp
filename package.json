@@ -1,0 +1,15 @@
+{
+  "name": "stream_for_stream",
+  "version": "0.0.1",
+  "description": "Deshare a stream from ipTV to file and reStream it localy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C.git\u001b[B\u001b[D\u001b[A\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dstream",
+    "iptv"
+  ],
+  "author": "Ali Almohaya",
+  "license": "MIT"
+}
